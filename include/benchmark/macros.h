@@ -14,7 +14,7 @@
 #ifndef BENCHMARK_MACROS_H_
 #define BENCHMARK_MACROS_H_
 
-#if __cplusplus >= 201103L
+#if __cplusplus >= 201103L || _MSC_VER >= 1900
 #define BENCHMARK_HAS_CXX11
 #endif
 
